@@ -10,3 +10,4 @@ def line(katz_deli):
         print(message)
 
 def take_a_number(katz_deli, new_customer):
+    katz_deli.append(new_customer)
