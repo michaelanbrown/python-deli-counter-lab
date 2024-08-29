@@ -7,3 +7,4 @@ def line(katz_deli):
         message = "The line is currently:"
         for i in range(len(katz_deli)):
             message += f' {i + 1}. {katz_deli[i]}'
+        print(message)
