@@ -13,3 +13,5 @@ def take_a_number(katz_deli, new_customer):
     katz_deli.append(new_customer)
     print(f'Welcome, {new_customer}. ' +\
     f'You are number {len(katz_deli)} in line.')
+
+def now_serving(katz_deli)
