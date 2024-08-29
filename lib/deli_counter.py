@@ -8,3 +8,5 @@ def line(katz_deli):
         for i in range(len(katz_deli)):
             message += f' {i + 1}. {katz_deli[i]}'
         print(message)
+
+def take_a_number(katz_deli, new_customer):
