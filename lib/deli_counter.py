@@ -17,3 +17,6 @@ def take_a_number(katz_deli, new_customer):
 def now_serving(katz_deli):
     if not katz_deli:
         print("There is nobody waiting to be served!")
+    else:
+        print(f'Currently serving {katz_deli[0]}.')
+        del katz_deli[0]
